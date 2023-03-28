@@ -7,7 +7,7 @@ function App() {
     setResult(result.concat(e.target.name));
   };
   const clear = () => {
-    setResult("");
+    setResult(" ");
   };
   const backSpance = () => {
     setResult(result.slice(0, -1)); //result.length-1
